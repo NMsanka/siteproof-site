@@ -1,0 +1,47 @@
+/* SiteProof public pages: privacy policy, account deletion. Brand colours from
+   docs/08-design-system.md; system fonts, so the pages load nothing from elsewhere. */
+:root {
+  --primary: #1d5c74;
+  --primary-soft: #e2eef3;
+  --brand: #b45a2c;
+  --bg: #f4f6f5;
+  --surface: #ffffff;
+  --line: #d6ddd9;
+  --ink: #18221f;
+  --ink-2: #56645e;
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Noto Sans Sinhala", Arial, sans-serif;
+}
+a { color: var(--primary); }
+.wrap { max-width: 760px; margin: 0 auto; padding: 0 16px; }
+header { background: var(--surface); border-bottom: 1px solid var(--line); }
+header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-top: 14px; padding-bottom: 14px; }
+.logo { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); font-weight: 700; font-size: 20px; letter-spacing: -0.3px; }
+.logo img { width: 36px; height: 36px; }
+nav { display: flex; gap: 16px; font-size: 15px; flex-wrap: wrap; }
+main { padding: 32px 0 48px; }
+h1 { font-size: 30px; line-height: 1.2; margin: 0 0 8px; letter-spacing: -0.4px; }
+h2 { font-size: 21px; line-height: 1.3; margin: 36px 0 8px; }
+.meta { color: var(--ink-2); margin: 0 0 24px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 20px; margin: 16px 0; }
+.note { background: var(--primary-soft); border-radius: 12px; padding: 14px 16px; margin: 16px 0; }
+table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 15px; background: var(--surface); }
+th, td { text-align: left; vertical-align: top; padding: 10px 12px; border: 1px solid var(--line); }
+th { background: #eef2f0; font-weight: 600; }
+.table-wrap { overflow-x: auto; }
+ol, ul { padding-left: 22px; }
+li { margin: 4px 0; }
+.button { display: inline-block; background: var(--primary); color: #fff; text-decoration: none; font-weight: 600; padding: 12px 20px; border-radius: 12px; }
+.hero { text-align: center; padding: 24px 0 8px; }
+.hero img { width: 112px; height: 112px; }
+.hero p { color: var(--ink-2); font-size: 18px; margin: 8px auto 24px; max-width: 520px; }
+footer { border-top: 1px solid var(--line); color: var(--ink-2); font-size: 14px; padding: 20px 0 32px; }
+footer .wrap { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+@media (max-width: 480px) { h1 { font-size: 26px; } th, td { padding: 8px; } }

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 100 100">
+  <title>SiteProof</title>
+  <!-- With its own rounded corners: older Android launchers, docs and the web. -->
+  <rect width="100" height="100" rx="22" fill="#B45A2C"/>
+  <g transform="translate(50 50) scale(0.84) translate(-50 -53)"><path d="M50 14 L86 44 L78 44 L78 59 Q78 70 65 80 L50 92 L35 80 Q22 70 22 59 L22 44 L14 44 Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round"/><path d="M36 56 L46 66 L65 46" fill="none" stroke="#1D5C74" stroke-width="8.5" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>
