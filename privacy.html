@@ -31,39 +31,43 @@
 <tr><td>Notification settings</td><td>Instant notifications or a daily summary, and its hour</td><td>When you choose them</td></tr>
 <tr><td>Projects</td><td>Project name, district, an address note, the site location pin and its radius, floors and floor area, budgets, stages</td><td>When the owner or the family member on site sets them</td></tr>
 <tr><td>Site photos</td><td>The photo; the time on your phone and the time our server received it; GPS position and its accuracy; whether the phone reported a simulated location; distance from the site pin; whether it was taken offline; a fingerprint of the file to spot repeats</td><td>When you post a site photo</td></tr>
+<tr><td>Voice notes</td><td>The recording (up to 2 minutes), its length and the app's language when it was recorded; on a project on Plus, what was said, written out and translated</td><td>When you record a voice note on an update</td></tr>
 <tr><td>Bills and payment slips</td><td>The photo (no location), amount, date, notes, who added it</td><td>When you add a bill or mark a payment paid</td></tr>
 <tr><td>Payments</td><td>Payment requests, approvals, rejections and who paid</td><td>When someone asks for, approves or pays a payment</td></tr>
 <tr><td>Subscription</td><td>Your plan, when it renews or ends, and the store it was bought in. Never card details</td><td>When an owner subscribes, renews or cancels</td></tr>
-<tr><td>Team and activity</td><td>Who is in each project and their role, invites, comments, documents and drawings, stage changes, live checks (when asked, done or missed), notifications</td><td>As you use the app</td></tr>
+<tr><td>Team and activity</td><td>Who is in each project and their role, invites, comments, documents and drawings, stage changes, stage checks (who checked, what they found, what was fixed), live checks (when asked, done or missed), notifications</td><td>As you use the app</td></tr>
 <tr><td>Push notification id</td><td>A random id Firebase gives your phone, and whether it is Android or iPhone</td><td>When you allow notifications</td></tr>
 <tr><td>Crash reports</td><td>The error, where in the app it happened, phone model, operating system version and your account's random id</td><td>When the app crashes or hits an error</td></tr>
 </table></div>
-<p>Photo files carry no location inside them: the position is stored separately and only project members see it. We do not collect your contacts, your location in the background (only at the moment you take a site photo or set the site pin), or advertising ids.</p>
+<p>Photo files carry no location inside them: the position is stored separately and only project members see it. We do not collect your contacts, your location in the background (only at the moment you take a site photo or set the site pin), or advertising ids. The microphone is used only while you record a voice note.</p>
 
 <h2>How we use it</h2>
 <p>We use your data only to run SiteProof for you and your project team:</p>
 <ul>
 <li><strong>Keep the project's record:</strong> show photos, bills, payments, changes to the work, comments and documents to the project's members.</li>
-<li><strong>Check site photos:</strong> compare the photo's GPS position with the site pin, use our server's time rather than the phone's, and spot repeated photos and simulated locations. The result is a "Verified on site" badge or a warning.</li>
+<li><strong>Check site photos:</strong> compare the photo's GPS position with the site pin, use our server's time rather than the phone's, and spot repeated photos (including one that looks the same as a photo already posted on this or another project, without showing the other project's photo) and simulated locations. The result is a "Verified on site" badge or a warning.</li>
 <li><strong>Send notifications:</strong> new photos, bills, payment requests, live checks and changes, instantly or in your daily summary.</li>
 <li><strong>Run live checks:</strong> ask the person on site for a photo now, and tell the owner if it is missed.</li>
 <li><strong>Read a bill, when you ask:</strong> if you tap "Fill in from the photo", the bill photo is sent to an AI service that reads the shop, date, items and total, and fills them in for you to check. Nothing is saved until you save the bill.</li>
 <li><strong>Write the weekly summary:</strong> for the owners and co-owners of a project on Plus, every Monday, an AI service writes a few lines about the week from the project's records: its name, its stages, how many photos and bills there were and the amounts. It gets no photos and no one's name or phone number, and every number it writes is checked against the records.</li>
 <li><strong>Check a payment request:</strong> when someone on site asks for a payment on a project on Plus, an AI service writes a few lines about it for the owners and co-owners from the project's records: the amount, the stage, its budget and payments, the agreed payment it is for in the contract's payment schedule, and how many photos there were and their checks. It gets no photos, no note and no one's name or phone number, every number it writes is checked against the records, and it never decides for you.</li>
 <li><strong>Read a contract, when an owner asks:</strong> if an owner or co-owner taps "Read it from the contract", that contract (a PDF or photo from the project's documents) is sent to an AI service with the names of the project's stages. It reads the contractor's name, the total and the agreed payments, and fills in the payment schedule for them to check. A contract may also show the names, addresses or other details of the people who signed it; the AI is asked only for the payments. Nothing is saved until they save the schedule.</li>
+<li><strong>Check site photos with AI:</strong> on a project on Plus, each site photo is sent once, at low resolution, to an AI service with the names of the project's stages. It says whether the photo looks like a photo of a screen or a printout rather than of the site, and which stage it shows. The result is shown as checked by AI, which can be wrong. It gets no one's name or phone number.</li>
+<li><strong>Write out voice notes:</strong> on a project on Plus, a voice note is sent to an AI service that writes out what was said and translates it into the app's other language (Sinhala or English), so everyone in the project can read it in theirs. It gets the recording, with no one's name or phone number. The recording is always kept, to play.</li>
 <li><strong>Fix problems:</strong> crash reports show us what broke, on which kind of phone.</li>
 <li><strong>Answer you:</strong> when you contact us for help or a deletion request.</li>
 </ul>
-<p>We <strong>never</strong> sell your data, use it for advertising, show a site location on any public page, or let other projects see your project. AI is used in four places only, through a provider that does not train its models on your data: reading a bill when you ask, reading a contract when an owner asks, and, for owners, the weekly summary and the check of a payment request. Before we add any other AI feature, we will update this policy.</p>
+<p>We <strong>never</strong> sell your data, use it for advertising, show a site location on any public page, or let other projects see your project. AI is used in six places only, through a provider that does not train its models on your data: reading a bill when you ask, reading a contract when an owner asks, checking site photos and writing out and translating voice notes on projects on Plus, and, for owners, the weekly summary and the check of a payment request. Before we add any other AI feature, we will update this policy.</p>
 
 <h2>Who can see it</h2>
 <p>Only the members of a project see what is in it. Within a project:</p>
 <ul>
-<li>Everyone in the team sees the photos, the site location, stages, comments and documents.</li>
+<li>Everyone in the team sees the photos, the site location, stages, stage checks, comments and documents, and hears and reads the voice notes.</li>
 <li>Everyone in the team sees each other's name and role. If you signed in with your phone number, the people in your projects see that number too, so they can call you or message you on WhatsApp from the app.</li>
 <li>Budgets are hidden from contractors and viewers; designers see them only if the owner allows it.</li>
 <li>The payment schedule from the contract is seen by the people who see the budget, and by the contractor.</li>
 <li>Changes to the work, with their cost, are seen by everyone in the team except viewers.</li>
+<li>If your contractor or designer set up the project for you, they could see and change everything in it until you joined as its owner; from then on they see what a contractor or designer sees.</li>
 <li>A person who asked for a payment can see its slip, even without seeing the budget.</li>
 <li>Photos and files are kept in private storage and shown through links that stop working after 1 hour.</li>
 </ul>
@@ -76,21 +80,22 @@
 <tr><td>Text.lk (Sri Lanka)</td><td>Sends sign-in codes by text message</td><td>Your phone number and the code</td></tr>
 <tr><td>Brevo</td><td>Sends sign-in codes by email</td><td>Your email address and the code</td></tr>
 <tr><td>RevenueCat, with Google Play (and the App Store once there is an iPhone app)</td><td>Subscriptions</td><td>Your account's random id, what you bought, and when it renews or ends. Google takes the payment; we never see your card details</td></tr>
-<tr><td>OpenAI (United States)</td><td>Reads a bill photo when you tap "Fill in from the photo" and a contract when an owner taps "Read it from the contract", and writes the owners' weekly summary and payment request checks</td><td>For a bill: that photo, with the strip the app adds to it (the project's name, its district and the date). OpenAI does not use it to train its models, and we ask it not to store the answer. Like every request it receives, OpenAI may keep it for up to 30 days to check for misuse (longer only where the law or safety requires it). For the weekly summary: the week's facts (the project's name, its stages, counts and amounts), no photos or names, on the same terms. For a payment request's check: its facts (the amount, the stage, its budget and payments, the agreed payment's name and amounts, photo counts and their checks), no photos, notes or names, on the same terms. For a contract: that file, with whatever it shows, and the names of the project's stages, on the same terms</td></tr>
+<tr><td>OpenAI (United States)</td><td>Reads a bill photo when you tap "Fill in from the photo" and a contract when an owner taps "Read it from the contract", looks at site photos and writes out and translates voice notes on Plus projects, and writes the owners' weekly summary and payment request checks</td><td>For a bill: that photo, with the strip the app adds to it (the project's name, its district and the date). OpenAI does not use it to train its models, and we ask it not to store the answer. Like every request it receives, OpenAI may keep it for up to 30 days to check for misuse (longer only where the law or safety requires it). For the weekly summary: the week's facts (the project's name, its stages, counts and amounts), no photos or names, on the same terms. For a payment request's check: its facts (the amount, the stage, its budget and payments, the agreed payment's name and amounts, photo counts and their checks), no photos, notes or names, on the same terms. For a contract: that file, with whatever it shows, and the names of the project's stages, on the same terms. For a voice note: the recording, and then what was said, to translate it, on the same terms. For a site photo: the photo at low resolution and the names of the project's stages, on the same terms</td></tr>
 </table></div>
 <p>We share data with anyone else only when the law requires it, for example a court order, and we will tell you unless the law forbids it.</p>
 
 <h2>Where it is stored and how long we keep it</h2>
-<p>Your data is stored by Supabase in its Singapore region, outside Sri Lanka. Firebase notifications and crash reports go through Google's servers, which are in several countries. A bill photo or contract you ask the app to read is sent to OpenAI in the United States.</p>
+<p>Your data is stored by Supabase in its Singapore region, outside Sri Lanka. Firebase notifications and crash reports go through Google's servers, which are in several countries. A bill photo or contract you ask the app to read, and site photos and voice notes on a project on Plus, are sent to OpenAI in the United States.</p>
 <div class="table-wrap"><table>
 <tr><th>Data</th><th>How long we keep it</th></tr>
 <tr><td>Your account and settings</td><td>Until you delete your account</td></tr>
 <tr><td>A project's photos, bills, payments, changes to the work, comments and documents</td><td>As long as the project exists. A project only you are in is deleted with your account</td></tr>
 <tr><td>What you added to other people's projects</td><td>Kept after you delete your account, shown as "Former member", because it is the other family's record of their house</td></tr>
+<tr><td>Voice notes, and what was said in them and its translation</td><td>As long as the project exists, like the photos</td></tr>
 <tr><td>Weekly summaries and payment request checks</td><td>As long as the project exists, so owners can look back</td></tr>
 <tr><td>What the AI read from a bill (shop, date, items, total)</td><td>As long as the project exists, so we can check how well bills are read</td></tr>
 <tr><td>What the AI read from a contract (the contractor's name, the total and the payments)</td><td>As long as the project exists, so we can check how well contracts are read</td></tr>
-<tr><td>A bill photo or contract sent to OpenAI to be read</td><td>Up to 30 days at OpenAI, to check for misuse; not used to train its models</td></tr>
+<tr><td>A bill photo, contract, site photo or voice note sent to OpenAI</td><td>Up to 30 days at OpenAI, to check for misuse; not used to train its models</td></tr>
 <tr><td>Notifications</td><td>90 days, then deleted automatically</td></tr>
 <tr><td>Push notification id</td><td>Until you sign out, delete your account, or Firebase reports it no longer works</td></tr>
 <tr><td>Crash reports</td><td>90 days, then Firebase deletes them</td></tr>
