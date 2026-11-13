@@ -3,42 +3,203 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SiteProof</title>
-<meta name="description" content="SiteProof: build your home in Sri Lanka from anywhere. See every stage, every receipt, every rupee.">
+<title>SiteProof: build your home in Sri Lanka from anywhere</title>
+<meta name="description" content="SiteProof helps families follow the building of their house in Sri Lanka: site photos verified on site, bills against each stage, and every payment approved by you. In English and Sinhala.">
+<meta name="theme-color" content="#0f3a49">
+<meta property="og:type" content="website">
+<meta property="og:title" content="SiteProof: build your home in Sri Lanka from anywhere">
+<meta property="og:description" content="See every stage, every receipt, every rupee. Site photos verified on site, bills against each stage, and every payment approved by you.">
+<meta property="og:image" content="https://nmsanka.github.io/siteproof-site/media/siteproof-promo.jpg">
+<meta property="og:url" content="https://nmsanka.github.io/siteproof-site/">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="home">
 <header><div class="wrap">
   <a class="logo" href="./"><img src="favicon.svg" alt="">SiteProof</a>
-  <nav><a href="guides/">Guides</a><a href="privacy.html">Privacy</a><a href="delete.html">Delete your account</a></nav>
+  <nav aria-label="Main"><a href="guides/">Guides</a><a href="privacy.html">Privacy</a><a href="delete.html">Delete your account</a></nav>
 </div></header>
-<main><div class="wrap">
+
+<main>
+  <!-- Hero: the promise, and the film in a phone -->
   <section class="hero">
-    <img src="favicon.svg" alt="SiteProof logo">
-    <h1>Build your home in Sri Lanka from anywhere</h1>
-    <p>See every stage, every receipt, every rupee. Site photos proven to be taken on site, bills against each stage, and every payment approved by you.</p>
+    <div class="container">
+      <div>
+        <p class="eyebrow">For families building in Sri Lanka</p>
+        <h1>Build your home in Sri Lanka <em>from anywhere</em></h1>
+        <p class="lead">See every stage, every receipt, every rupee. Site photos proven to be taken on site, bills against each stage, and every payment approved by you.</p>
+        <div class="hero-actions">
+          <a class="button brand" href="guides/">Read the guides</a>
+          <a class="button light" href="#how">How it works</a>
+        </div>
+        <ul class="hero-points">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Photos verified on site</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>English and සිංහල</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Free while in testing</li>
+        </ul>
+      </div>
+      <div class="hero-visual">
+        <div class="device">
+          <video controls playsinline preload="metadata" poster="media/siteproof-promo.jpg" aria-label="SiteProof in one minute">
+            <source src="media/siteproof-promo.mp4" type="video/mp4">
+            <a href="media/siteproof-promo.mp4">Watch the one-minute film</a>
+          </video>
+        </div>
+        <p class="video-note">SiteProof in one minute. AI voice-over; the app screens show test data and the site photos are illustrations. Music: “Soft Corporate” by NastelBom (Pixabay).</p>
+      </div>
+    </div>
   </section>
-  <figure class="promo">
-    <video controls playsinline preload="metadata" poster="media/siteproof-promo.jpg" width="360">
-      <source src="media/siteproof-promo.mp4" type="video/mp4">
-      <a href="media/siteproof-promo.mp4">Watch the one-minute video</a>
-    </video>
-    <figcaption>SiteProof in one minute. The voice-over is generated with AI; the app screens show test data and the site photos are illustrations. Music: “Soft Corporate” by NastelBom (Pixabay).</figcaption>
-  </figure>
-  <div class="card">
-    <h2 style="margin-top:0">User guides</h2>
-    <p>Step-by-step guides for each person in a project: the owner, a co-owner, the family member on site, the contractor, the designer and someone who follows the build. In English and in Sinhala.</p>
-    <p style="margin:0"><a class="button" href="guides/">Read the guides</a> &nbsp; <a href="guides/si/">සිංහලෙන් කියවන්න</a></p>
-  </div>
-  <div class="card">
-    <p style="margin:0">SiteProof is in testing with its first families and will come to Google Play soon. Questions: <a href="mailto:nmsankapadma@gmail.com">nmsankapadma@gmail.com</a></p>
-  </div>
-</div></main>
+
+  <!-- Three promises -->
+  <section class="trust" aria-label="What SiteProof does">
+    <div class="container">
+      <div class="grid">
+        <div class="trust-item">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v6c0 4.2-3 7.6-7 9-4-1.4-7-4.8-7-9V6l7-3z"/><path d="M8.5 12.2l2.4 2.4 4.6-4.8"/></svg></div>
+          <h3>Proof, not promises</h3>
+          <p>Every photo is taken in the app and checked: where it was taken, and when.</p>
+        </div>
+        <div class="trust-item">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-3-2-3 2-3-2-3 2V3z"/><path d="M9 8h6M9 12h6M9 16h3"/></svg></div>
+          <h3>Every rupee in its place</h3>
+          <p>Bills go against each stage, so you always know what is spent and what is left.</p>
+        </div>
+        <div class="trust-item">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="6" width="18" height="13" rx="2.5"/><path d="M3 10h18M7 15h4"/></svg></div>
+          <h3>You approve every payment</h3>
+          <p>The builder asks in the app; you see the facts and decide, from wherever you are.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works: four features with real screens -->
+  <section class="section" id="how">
+    <div class="container">
+      <div class="section-head center">
+        <p class="eyebrow">How it works</p>
+        <h2>Everything about your build, in one place you can trust</h2>
+        <p>The family on site, the contractor and the designer post to one project. You follow it from your phone, wherever you live.</p>
+      </div>
+
+      <div class="feature">
+        <div class="feature-media"><div class="device sm"><img src="guides/img/en-owner-updates.jpg" alt="The updates feed: photos of the lintels from the same spot, one with a Verified on site badge and one with a warning" loading="lazy" width="600" height="1333"></div></div>
+        <div class="feature-text">
+          <p class="eyebrow">Photos verified on site</p>
+          <h2>See the site as it is, not as you’re told</h2>
+          <p>Every photo is taken in the SiteProof app. Each one gets a badge you can trust: verified on site, with a warning, or flagged. Nobody can change it afterwards.</p>
+          <ul class="checks">
+            <li>Taken at the site, at the time it says</li>
+            <li>Compare the same spot day by day, with the camera’s ghost to line it up</li>
+            <li>Ask for a live check: a new photo from the site, now</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="feature flip">
+        <div class="feature-media warm"><div class="device sm"><img src="guides/img/en-owner-money-parts.jpg" alt="The Money tab: the budget in two parts, the contract and everything else, and the budget by stage" loading="lazy" width="600" height="1333"></div></div>
+        <div class="feature-text">
+          <p class="eyebrow">Budget and bills</p>
+          <h2>Every rupee, accounted for</h2>
+          <p>Bills go against each stage with a photo of the bill. Your budget is split the way building really works: the contract with your builder, and everything else you buy.</p>
+          <ul class="checks">
+            <li>What’s spent and what’s left, stage by stage</li>
+            <li>Charts of spending over time and where the money goes</li>
+            <li>Snap a bill and it’s read for you <span class="tag">Plus</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="feature-media"><div class="device sm"><img src="guides/img/en-owner-request.jpg" alt="A payment request: Before you decide, with questions worth asking, the photos sent as evidence, and Approve, Ask a question, Reject" loading="lazy" width="600" height="1333"></div></div>
+        <div class="feature-text">
+          <p class="eyebrow">Payment requests</p>
+          <h2>See the facts before you pay</h2>
+          <p>When the builder needs money, they ask in the app, with photos of the work. You see what it leaves of the stage’s budget and the agreed payment, and you decide.</p>
+          <ul class="checks">
+            <li>“Before you decide”: the photos, the pace and the money, checked against the records <span class="tag">Plus</span></li>
+            <li>Approve, ask a question or reject, all in one place</li>
+            <li>A notification the moment a request comes in</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="feature flip">
+        <div class="feature-media warm"><div class="device sm"><img src="guides/img/si-family-today.jpg" alt="The Today screen in Sinhala for the family member on site, with big buttons to post an update, add a bill and request a payment" loading="lazy" width="600" height="1333"></div></div>
+        <div class="feature-text">
+          <p class="eyebrow">For the whole family</p>
+          <h2>Simple for the family on site, in Sinhala or English</h2>
+          <p>Each person sees what they should. The family member on site gets big buttons; parents can follow the progress without seeing the money.</p>
+          <ul class="checks">
+            <li>Six roles: owner, co-owner, family on site, contractor, designer, viewer</li>
+            <li>Voice notes in Sinhala, written out and translated <span class="tag">Plus</span></li>
+            <li>A summary of the week, every Monday <span class="tag">Plus</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Every stage -->
+  <section class="section alt">
+    <div class="container">
+      <div class="section-head center">
+        <p class="eyebrow">Stage by stage</p>
+        <h2>From setting out to handover</h2>
+        <p>Your build follows the stages of a Sri Lankan house, each with its own photos, bills, budget and checks.</p>
+      </div>
+      <div class="photos">
+        <figure><img src="media/photos/setting-out.jpg" alt="A cleared plot with strings and lime lines setting out the house" loading="lazy" width="720" height="1080"><figcaption>Setting out</figcaption></figure>
+        <figure><img src="media/photos/foundation.jpg" alt="A rubble stone foundation in a trench" loading="lazy" width="720" height="1080"><figcaption>Foundation</figcaption></figure>
+        <figure><img src="media/photos/walls-and-lintels.jpg" alt="Cement block walls with the lintel shuttering on timber props" loading="lazy" width="720" height="1080"><figcaption>Walls and lintels</figcaption></figure>
+        <figure><img src="media/photos/roof.jpg" alt="A roof half covered with red clay tiles" loading="lazy" width="720" height="1080"><figcaption>Roof</figcaption></figure>
+      </div>
+      <p class="fine">Site photos on this page are illustrations.</p>
+    </div>
+  </section>
+
+  <!-- Who it's for -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">User guides</p>
+        <h2>A guide for everyone in the project</h2>
+        <p>Step by step, with screenshots, in English and in <a href="guides/si/">සිංහල</a>.</p>
+      </div>
+      <div class="roles">
+        <a class="role" href="guides/owner.html"><h3>Owner</h3><p>You’re building the house. You see everything, decide on every payment and invite the team.</p></a>
+        <a class="role" href="guides/co-owner.html"><h3>Co-owner</h3><p>You run the project with the owner: you see everything and approve payments too.</p></a>
+        <a class="role" href="guides/family-on-site.html"><h3>Family member on site</h3><p>You live near the site. You post photos and bills, and set the site location.</p></a>
+        <a class="role" href="guides/contractor.html"><h3>Contractor</h3><p>You build the house. Post the work, add your bills and ask for payments.</p></a>
+        <a class="role" href="guides/designer.html"><h3>Designer</h3><p>Architect, draughtsman or engineer. Share drawings, check stages and answer questions.</p></a>
+        <a class="role" href="guides/viewer.html"><h3>Viewer</h3><p>You follow the progress, for example a parent: the photos and stages, never the money.</p></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to action -->
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <div class="cta">
+        <h2>Coming soon to Google Play</h2>
+        <p>SiteProof is in testing with its first families. Questions, or want to try it on your build? Write to us.</p>
+        <div class="hero-actions">
+          <span class="store-badge" role="img" aria-label="Coming soon to Google Play">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#34a853" d="M4 2.6 13.6 12 4 21.4a1.6 1.6 0 0 1-.6-1.3V3.9c0-.5.2-1 .6-1.3z"/><path fill="#fbbc04" d="m16.9 8.8-3.3 3.2 3.3 3.2 3.7-2.1c1-.6 1-2 0-2.5z"/><path fill="#ea4335" d="M13.6 12 4 21.4c.4.4 1.1.5 1.7.2l11.2-6.4z"/><path fill="#4285f4" d="M4 2.6 13.6 12l3.3-3.2L5.7 2.4C5.1 2.1 4.4 2.2 4 2.6z"/></svg>
+            <span><small>Coming soon to</small>Google Play</span>
+          </span>
+          <a class="button light" href="mailto:nmsankapadma@gmail.com">nmsankapadma@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
 <footer><div class="wrap">
   <span>© 2026 SiteProof, Sri Lanka</span>
-  <span><a href="privacy.html">Privacy policy</a> · <a href="delete.html">Delete your account</a></span>
+  <span><a href="guides/">Guides</a> · <a href="privacy.html">Privacy policy</a> · <a href="delete.html">Delete your account</a></span>
 </div></footer>
 </body>
 </html>
