@@ -9,7 +9,10 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="SiteProof: build your home in Sri Lanka from anywhere">
 <meta property="og:description" content="See every stage, every receipt, every rupee. Site photos verified on site, bills against each stage, and every payment approved by you.">
-<meta property="og:image" content="https://nmsanka.github.io/siteproof-site/media/siteproof-promo.jpg">
+<meta property="og:image" content="https://nmsanka.github.io/siteproof-site/media/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="SiteProof: build your home in Sri Lanka from anywhere">
 <meta property="og:url" content="https://nmsanka.github.io/siteproof-site/">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -26,9 +29,9 @@
   <!-- Hero: the promise, and the film in a phone -->
   <section class="hero">
     <div class="container">
-      <div>
+      <div class="hero-copy">
         <p class="eyebrow">For families building in Sri Lanka</p>
-        <h1>Build your home in Sri Lanka <em>from anywhere</em></h1>
+        <h1>Build your home in Sri&nbsp;Lanka <em>from anywhere</em></h1>
         <p class="lead">See every stage, every receipt, every rupee. Site photos proven to be taken on site, bills against each stage, and every payment approved by you.</p>
         <div class="hero-actions">
           <a class="button brand" href="guides/">Read the guides</a>
@@ -41,11 +44,15 @@
         </ul>
       </div>
       <div class="hero-visual">
-        <div class="device">
+        <div class="film">
           <video controls playsinline preload="metadata" poster="media/siteproof-promo.jpg" aria-label="SiteProof in one minute">
             <source src="media/siteproof-promo.mp4" type="video/mp4">
             <a href="media/siteproof-promo.mp4">Watch the one-minute film</a>
           </video>
+          <button class="play" type="button" aria-label="Play the one-minute film">
+            <span class="ring"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"/></svg></span>
+            <span class="label">Watch the film<small>1 min, with sound</small></span>
+          </button>
         </div>
         <p class="video-note">SiteProof in one minute. AI voice-over; the app screens show test data and the site photos are illustrations. Music: “Soft Corporate” by NastelBom (Pixabay).</p>
       </div>
@@ -201,5 +208,6 @@
   <span>© 2026 SiteProof, Sri Lanka</span>
   <span><a href="guides/">Guides</a> · <a href="privacy.html">Privacy policy</a> · <a href="delete.html">Delete your account</a></span>
 </div></footer>
+<script src="site.js"></script>
 </body>
 </html>
