@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guide for contractors · SiteProof</title>
+<meta name="description" content="How contractors use SiteProof: post photos, add your bills, ask for payments, propose stages from your quote and record changes to the work.">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="stylesheet" href="../style.css">
+<link rel="alternate" hreflang="en" href="contractor.html">
+<link rel="alternate" hreflang="si" href="si/contractor.html">
+<style>
+.crumbs, .lang-switch { font-size: 15px; margin: 0 0 8px; }
+.lang-switch { margin-bottom: 20px; }
+.toc { display: block; font-size: 15px; }
+.toc ol { margin: 4px 0 0; }
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 16px 0; }
+.two .card { margin: 0; }
+.two h3 { margin: 0 0 6px; font-size: 17px; }
+.two ul { margin: 0; }
+@media (max-width: 600px) { .two { grid-template-columns: 1fr; } }
+h3 { font-size: 18px; margin: 28px 0 6px; }
+figure { margin: 20px 0; }
+figure img { display: block; max-width: 100%; height: auto; border: 1px solid var(--line); border-radius: 16px; background: var(--surface); }
+figcaption { color: var(--ink-2); font-size: 14px; margin-top: 6px; max-width: 300px; }
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <a class="logo" href="../"><img src="../favicon.svg" alt="">SiteProof</a>
+  <nav><a href="./" aria-current="page">Guides</a><a href="../privacy.html">Privacy</a><a href="../delete.html">Delete your account</a></nav>
+</div></header>
+<main><div class="wrap">
+<p class="crumbs"><a href="./">Guides</a> › Contractor</p>
+<h1>Guide for contractors</h1>
+<p class="meta">For SiteProof 0.9.0 (build 8) · November 2026</p>
+<p class="lang-switch"><a href="si/contractor.html" hreflang="si" lang="si">සිංහලෙන් කියවන්න</a> (Read in Sinhala)</p>
+
+<p>This guide is for the contractor (baas) building the house. You post photos of the work, add the bills for what you buy, and ask the owner for payments with photos as evidence. You don't see the owner's budget. SiteProof is free for you.</p>
+
+<nav class="toc card" aria-label="On this page"><strong>On this page</strong>
+<ol>
+<li><a href="#can">What you can and can't do</a></li>
+<li><a href="#start">Getting started</a></li>
+<li><a href="#post">Post an update</a></li>
+<li><a href="#bill">Add your bills</a></li>
+<li><a href="#request">Request a payment</a></li>
+<li><a href="#propose">Propose stages from your quote</a></li>
+<li><a href="#change">Record a change to the work</a></li>
+<li><a href="#more">Drawings, live checks, fixes and stages</a></li>
+<li><a href="#client">Set up a project for a client</a></li>
+<li><a href="#good">Good to know</a></li>
+</ol></nav>
+
+<h2 id="can">What you can and can't do</h2>
+<div class="two">
+<div class="card"><h3>You can</h3>
+<ul>
+<li>Post updates with photos and a voice note.</li>
+<li>Add the bills for what you buy for the site, and see your own bills.</li>
+<li>Ask for payments, and see your own payment requests.</li>
+<li>See the payment schedule from the contract, and the contract itself in Files.</li>
+<li>Propose the stages and amounts from your quotation or BOQ.</li>
+<li>Record a change to the work for the owner to decide (Plus).</li>
+<li>Start and finish stages, and fix what a stage check found.</li>
+<li>Confirm you have seen a new drawing.</li>
+<li>Set the site location, when you are the only one on site.</li>
+<li>Comment on updates, bills, payments and drawings.</li>
+</ul></div>
+<div class="card"><h3>You can't</h3>
+<ul>
+<li>See the owner's budget, or other people's bills and payment requests.</li>
+<li>Approve a payment or mark your own payment paid: the owner decides, and the owner or the family member on site marks it paid.</li>
+<li>Invite or remove people, or edit the project, its stages and budgets (you propose stages instead).</li>
+<li>Add drawings and documents.</li>
+<li>Check or sign off your own stages, or ask for a live check.</li>
+</ul></div>
+</div>
+
+<h2 id="start">Getting started</h2>
+<ol>
+<li>The owner invites you. You get a message, usually on WhatsApp, in Sinhala and English, with a 6-character code. The code works once, for 7 days.</li>
+<li>Install SiteProof from Google Play. While SiteProof is being tested, only invited testers can install it. It is for Android phones for now.</li>
+<li>Choose <strong>සිංහල</strong> or <strong>English</strong>, then read the short welcome or tap <strong>Skip</strong>.</li>
+<li>Sign in: type your email address and tap <strong>Send code</strong>, then type the 6-digit code from the email and tap <strong>Verify</strong>. Or tap <strong>Continue with Google</strong>. There is no password.</li>
+<li>Under <strong>About you</strong>, fill in <strong>Your name</strong> and the <strong>Country you live in</strong>, then tap <strong>Continue</strong>.</li>
+<li>On the home screen, tap ⋮ → <strong>Join with a code</strong>. Type the code and tap <strong>Check the code</strong>. The app shows who invited you, as <strong>Contractor</strong>. Tap <strong>Join this project</strong>.</li>
+</ol>
+<p>Your projects are on the home screen with a <strong>Contractor</strong> chip, under <strong>Your work</strong> if you also have projects in other roles. Projects with something waiting for you come first, and each card shows the next agreed payment by name. A project opens on <strong>Today</strong>.</p>
+
+<h3>The Today screen</h3>
+<p>Today says what is being built (<strong>Now building: …</strong>) and has three big buttons: <strong>Post an update</strong>, <strong>Add a bill</strong> (materials you bought for this site) and <strong>Request a payment</strong>. Below are any live checks for you, <strong>Needs your attention</strong> (a new drawing to check, things to fix, the owner's questions) and <strong>Your payment requests</strong>, with what is waiting and what is paid.</p>
+<figure><img src="img/en-contractor-today.jpg" alt="Today on Jayawardena house: the Post an update, Add a bill and Request a payment buttons, a new drawing to check, and Your payment requests." width="300" loading="lazy"><figcaption>Today: the three big buttons, what needs you and your payment requests.</figcaption></figure>
+
+<h2 id="post">Post an update</h2>
+<ol>
+<li>On Today, tap <strong>Post an update</strong>.</li>
+<li>Tap <strong>Take photos</strong>. The camera shows the stage's last photo faintly over the view: line up with it, so the owner can compare from the same spot. <strong>Hide</strong> turns it off. Take up to 10 photos, then tap <strong>Done</strong>.</li>
+<li>Check the <strong>Stage</strong>.</li>
+<li>If you like, write <strong>What was done? (optional)</strong>, or tap <strong>Record a voice note</strong> and say what the photos show (up to 2 minutes).</li>
+<li>Tap <strong>Post</strong>. Without signal, it waits on the phone and uploads by itself later.</li>
+</ol>
+<p>Photos can only be taken in the app, not picked from the gallery. Each gets a badge for the owner; see <a href="#good">Good to know</a>. Regular photos of the stage are what the owner looks at before paying.</p>
+<figure><img src="img/en-contractor-updates.jpg" alt="Updates: the Live checks list and a foundation photo with a Warning badge." width="300" loading="lazy"><figcaption>Updates, with live checks and each photo's badge.</figcaption></figure>
+
+<h2 id="bill">Add your bills</h2>
+<ol>
+<li>On Today, tap <strong>Add a bill</strong>.</li>
+<li>Tap <strong>Take a photo of the bill</strong> (optional; it records no location, because bills are often photographed at the shop).</li>
+<li>Tap <strong>Fill in from the photo</strong> to let AI fill in the empty fields, then check each one against the bill.</li>
+<li>Fill in the <strong>Amount (LKR)</strong>, the <strong>Category</strong>, the <strong>Stage</strong> and the <strong>Date of the bill</strong>. Under <strong>More details (optional)</strong>, add the item, quantity, unit and shop.</li>
+<li>Tap <strong>Save the bill</strong>.</li>
+</ol>
+<p>Your bills are listed on <strong>Money</strong> under <strong>Your bills</strong>. The owner sees them, but they are not counted again in the budget: you are paid back for them through your payment requests. You can delete your own bill within 24 hours, unless the owner has asked about it.</p>
+<figure><img src="img/en-contractor-bill.jpg" alt="The Add a bill form: take a photo of the bill, then the amount, category, stage and date." width="300" loading="lazy"><figcaption>Add a bill.</figcaption></figure>
+
+<h2 id="request">Request a payment</h2>
+<ol>
+<li>First post an update with photos of the work on that stage.</li>
+<li>On Today, tap <strong>Request a payment</strong>.</li>
+<li>If the owner has set a payment schedule from the contract, <strong>For</strong> suggests the next agreed payment and fills in its stage and what is left of it. Choose another one, or <strong>Not in the schedule</strong>.</li>
+<li>Check the <strong>Stage</strong> and the <strong>Amount (LKR)</strong>, and fill in <strong>Pay to</strong> and, if you like, <strong>What it's for (optional)</strong>.</li>
+<li>Under <strong>Photos as evidence</strong>, the stage's photos from the last 7 days are shown, with the verified ones picked. Tap a photo to add or remove it.</li>
+<li>Tap <strong>Send to the owner</strong>.</li>
+</ol>
+<p>The owner sees your request next to the agreed payment and the photos, and chooses <strong>Approve</strong>, <strong>Ask a question</strong> or <strong>Reject</strong> (with a reason). You are told straight away. If the owner asks a question, answer in the request's comments. You can <strong>Cancel this request</strong> while it waits. Once paid, you can see the bank slip.</p>
+<figure><img src="img/en-contractor-request.jpg" alt="The Request a payment form: the stage, the amount, Pay to, and photos from the last 7 days picked as evidence." width="300" loading="lazy"><figcaption>Request a payment, with photos as evidence.</figcaption></figure>
+<p>On <strong>Money</strong> you also see the <strong>Payment schedule</strong>: what has been paid of the contract and where each agreed payment stands (Paid, Approved, Asked for, part paid, Not yet).</p>
+
+<h2 id="propose">Propose stages from your quote</h2>
+<p>Have a quotation or BOQ? Propose the stages and amounts from it. The owner sees them next to the current plan and approves before anything changes.</p>
+<ol>
+<li>Open <strong>Stages</strong> and tap <strong>Propose stages from my quote</strong>.</li>
+<li>The proposal starts from the current stages. Tap a stage to rename it or change its amount; add, remove, or hold and drag to change the order. Every stage needs an amount (0 is fine).</li>
+<li>If the quotation is in Files, pick it under <strong>Quotation or BOQ in Files (optional)</strong>, and add a <strong>Note for the owner (optional)</strong>.</li>
+<li>Tap <strong>Send to the owner</strong>.</li>
+</ol>
+<p>You have one open proposal at a time: sending again replaces it, and <strong>Withdraw my proposal</strong> takes it back. If the owner asks a question, change the proposal or add a note and send it again (<strong>Update my proposal</strong>). Stages that already have photos, bills or payments stay; you can rename them.</p>
+<figure><img src="img/en-designer-stages.jpg" alt="The Stages tab with the Propose stages from my quote button." width="300" loading="lazy"><figcaption>Stages: Propose stages from my quote.</figcaption></figure>
+
+<h2 id="change">Record a change to the work (Plus)</h2>
+<p>When the work changes from what was agreed (a wider lintel, better tiles, rock under the foundation), record it before the money and the plan change:</p>
+<ol>
+<li>Open <strong>Money</strong> → <strong>Changes to the work</strong> → <strong>Record a change</strong>.</li>
+<li>Fill in <strong>What changes</strong> and, if you like, <strong>Why, and what was agreed (optional)</strong>.</li>
+<li>Choose the stage, <strong>Costs more</strong> or <strong>Saves money</strong>, the amount (leave it empty if it costs nothing) and the <strong>Extra days of work</strong>.</li>
+<li>Pick the <strong>Photos that show it</strong> and tap <strong>Save the change</strong>.</li>
+</ol>
+<p>The owner approves it, declines it or asks a question. Once approved, the budget and the plan follow; with a payment schedule, it becomes one more agreed payment you can ask for. You can <strong>Withdraw</strong> it while it waits.</p>
+
+<h2 id="more">Drawings, live checks, fixes and stages</h2>
+<ul>
+<li><strong>A new drawing:</strong> when "New drawing to check: …" shows in Needs your attention, open <strong>Files</strong>, look at the drawing and tap <strong>Seen, I'll build from this</strong>. A new version asks again, so nobody builds from an old one.</li>
+<li><strong>A live check:</strong> the owner may ask for new photos now. Open it from Today, tap <strong>Take the photos</strong>, and post before the time shown, where there is signal. If it shows a <strong>Code to write on paper</strong>, show the 4 digits on paper in one of the photos.</li>
+<li><strong>Things to fix:</strong> when a stage check lists something to fix, open the stage and, once it is done, tap <strong>Mark fixed</strong> and take photos of the fix. When all are fixed, the checker is asked to look again.</li>
+<li><strong>Stages:</strong> open <strong>Stages</strong>, tap the stage, then <strong>Start this stage</strong> or <strong>Mark this stage as finished</strong>.</li>
+<li><strong>The site location:</strong> only when the owner chose <strong>Only the contractor</strong> for who is on site. Stand in the middle of the plot, open <strong>Site</strong> and tap <strong>I'm at the house site now</strong>, then <strong>Save</strong>. The owner confirms it.</li>
+</ul>
+
+<h2 id="client">Set up a project for a client</h2>
+<p>You can start a project for a client and invite them; they become its owner and the one who pays.</p>
+<ol>
+<li>On the home screen, tap <strong>New project</strong>. Under <strong>Who is this project for?</strong>, choose <strong>A client's house: I'm their contractor</strong>.</li>
+<li>Fill in the project and tap <strong>Create project</strong>. Until your client joins, you can set up everything an owner does: the stages, the budget, the documents and the payment schedule.</li>
+<li>On the Overview, under <strong>Waiting for your client</strong>, tap <strong>Invite your client</strong> and send the message on WhatsApp. The code works for 60 days.</li>
+</ol>
+<p>When the client joins, they own the project and you stay on as its contractor. From then on you no longer see the budget, like any contractor. A project nobody takes over within 60 days is archived. It doesn't count against your own Free plan while it waits.</p>
+
+<h2 id="good">Good to know</h2>
+<h3>Who sees what</h3>
+<ul>
+<li>You see your own bills and payment requests, never the owner's budget or other people's bills.</li>
+<li>The owner sees your bills (not counted again in the budget), your requests and your photos with their badges.</li>
+<li>The owner's check on each payment request ("Before you decide") and the weekly summary are for the owners only.</li>
+<li>Everyone in the team sees the photos, the site location, the stages, stage checks, comments and documents.</li>
+<li>People in the project see your name and role, and your phone number if you signed in with one.</li>
+</ul>
+
+<h3>The photo badges</h3>
+<ul>
+<li><strong>Verified on site</strong>: taken in the app inside the site's circle (usually 150 m) and uploaded soon after.</li>
+<li><strong>Warning</strong>: something couldn't be fully checked, for example the site location isn't confirmed yet, the GPS was weak, the photo was taken a little outside the circle, or it looks the same as an earlier photo of this house.</li>
+<li><strong>Flagged</strong>: taken far from the site, with a simulated location, or the same photo posted twice.</li>
+</ul>
+<p>Nobody can change a photo's badge. If a photo has a warning, take a new one in the app, on site. When only the contractor is on site, the owner sees a reminder to ask for a new photo before a large payment.</p>
+
+<h3>Plans</h3>
+<p>SiteProof is free for you: only the owner pays. While SiteProof is being tested, every project has Plus free. Features marked (Plus) need the owner's Plus plan once plans start; on Free, bills and payment requests need Plus too.</p>
+</div></main>
+<footer><div class="wrap">
+  <span>© 2026 SiteProof, Sri Lanka</span>
+  <span><a href="./">All guides</a> · <a href="../privacy.html">Privacy policy</a> · <a href="../delete.html">Delete your account</a></span>
+</div></footer>
+</body>
+</html>

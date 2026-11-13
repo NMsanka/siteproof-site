@@ -42,6 +42,9 @@ li { margin: 4px 0; }
 .hero { text-align: center; padding: 24px 0 8px; }
 .hero img { width: 112px; height: 112px; }
 .hero p { color: var(--ink-2); font-size: 18px; margin: 8px auto 24px; max-width: 520px; }
+.promo { margin: 8px auto 24px; text-align: center; }
+.promo video { width: 100%; max-width: 360px; height: auto; aspect-ratio: 9 / 16; border-radius: 18px; background: #111a18; box-shadow: 0 16px 40px rgba(29, 92, 116, .22); }
+.promo figcaption { color: var(--ink-2); font-size: 14px; max-width: 420px; margin: 10px auto 0; }
 footer { border-top: 1px solid var(--line); color: var(--ink-2); font-size: 14px; padding: 20px 0 32px; }
 footer .wrap { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
 @media (max-width: 480px) { h1 { font-size: 26px; } th, td { padding: 8px; } }
